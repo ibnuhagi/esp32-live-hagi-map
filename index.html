@@ -4,25 +4,20 @@
     <title>Live Tracking Kendaraan</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-
-    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
-
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div id="mapid"></div>
-    <div id="info">
+    <div id="mapid"></div> <div id="info">
         <h3>Informasi Kendaraan</h3>
         <p>Lat: <span id="lat">N/A</span></p>
         <p>Lng: <span id="lng">N/A</span></p>
         <p>Kecepatan: <span id="speed">N/A</span> km/jam</p>
         <p>Update: <span id="timestamp">N/A</span></p>
     </div>
-
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
